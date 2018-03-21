@@ -3,6 +3,7 @@ body {
 	font-size: 14px;	
 	padding: 0;
 	margin: 0;
+	text-shadow: 1px 1px #000;
 }
 
 h1, h2 {
@@ -17,10 +18,24 @@ hr {
 	background: #FF5733;
 	height: 100vh;
 	margin-top: -2vh;
-	padding-top: 2vh;
+	padding: 2vmax;
 	display: flex;
 	color: #fff;
 	flex-direction: column;
+}
+
+.skillContainer {
+	background: #F0F3F4;
+	padding: 2vmax;
+	display: flex;
+	color: #000;
+}
+
+.skillContainer h1 {
+	font-size: 5em;
+	margin: 0 auto;
+	height: 100vh;
+	text-decoration: underline;
 }
 
 .content	{
@@ -40,6 +55,7 @@ hr {
 .introContent p {
 	margin-top: 2vh;
 	padding: 0 4vw 4vw 1vw;
+	font-weight: 500;
 }
 
 .my-image {
@@ -50,6 +66,10 @@ hr {
 /*media queries for responsivness*/
 
 @media screen and (max-width: 418px) {
+	body {
+		text-shadow: none;
+	}
+
 	.conatiner {
 		height: 70vh;
 	}
@@ -68,7 +88,7 @@ hr {
 	}
 
 	.my-image {
-		width: 95vw;
+		width: 90vw;
 		height: 30vh;
 	}
 
@@ -76,9 +96,17 @@ hr {
 		margin: 0;
 		padding: 0;
 	}
+
+	.skillContainer h1 {
+		font-size: 3em;
+	}
 }
 
 @media screen and (min-width: 418px) and (max-width: 900px ) {
+	body {
+		text-shadow: none;
+	}
+
 	.conatiner {
 		height: 70vh;
 	}
