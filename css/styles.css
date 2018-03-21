@@ -1,15 +1,110 @@
-:root {
-	font-size: 14px;
-}
-
 body {
+	font-family: 'Quicksand';
+	font-size: 14px;	
 	padding: 0;
 	margin: 0;
 }
 
-.banner {
-	background:url(../images/banner2.jpg) no-repeat;
-	background-position:center;
-	background-size:cover;
-	min-height:925px;
+h1, h2 {
+	font-size: 2em;
+}
+
+hr {
+	width: 50vh;
+}
+
+.conatiner {
+	background: #FF5733;
+	height: 100vh;
+	margin-top: -2vh;
+	padding-top: 2vh;
+	display: flex;
+	color: #fff;
+	flex-direction: column;
+}
+
+.content	{
+	margin: 0 auto;
+	text-align: center;
+	line-height: 0.7;
+}
+
+.introContent {
+	display: flex;
+	flex-direction: row;
+	padding: 2vw;
+	padding-top: 0;
+	font-size: 2em;
+}
+
+.introContent p {
+	margin-top: 2vh;
+	padding: 0 4vw 4vw 1vw;
+}
+
+.my-image {
+	width: 20vw;
+	height: 20vh;
+}
+
+/*media queries for responsivness*/
+
+@media screen and (max-width: 418px) {
+	.conatiner {
+		height: 70vh;
+	}
+
+	h1, h2 {
+		font-size: 1em;
+	}
+
+	.introContent {
+		font-size: 1em;
+		flex-direction: column-reverse;
+	}
+	
+	.intoContent .image{
+		order: -1;
+	}
+
+	.my-image {
+		width: 95vw;
+		height: 30vh;
+	}
+
+	.introContent p {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 418px) and (max-width: 900px ) {
+	.conatiner {
+		height: 70vh;
+	}
+
+	h1, h2 {
+		font-size: 1em;
+	}
+
+	.introContent {
+		font-size: 1em;
+		flex-direction: column-reverse;
+	}
+	
+	.intoContent .image{
+		order: -1;
+	}
+
+	.my-image {
+		width: 40vw;
+		height: 30vh;
+		margin-left: 28vw;
+	}
+
+	.introContent p {
+		margin: 0;
+		padding: 0;
+	}
+
 }
