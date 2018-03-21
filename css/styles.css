@@ -1,0 +1,15 @@
+:root {
+	font-size: 14px;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.banner {
+	background:url(../images/banner2.jpg) no-repeat;
+	background-position:center;
+	background-size:cover;
+	min-height:925px;
+}
