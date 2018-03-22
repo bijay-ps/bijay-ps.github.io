@@ -14,9 +14,15 @@ hr {
 	width: 50vh;
 }
 
+.smallFont {
+	font-size: 14px;
+	text-align: right;
+	margin-top: -2vh;
+}
+
 .conatiner {
 	background: #FF5733;
-	height: 100vh;
+	height: 80vh;
 	margin-top: -2vh;
 	padding: 2vmax;
 	display: flex;
@@ -28,14 +34,67 @@ hr {
 	background: #F0F3F4;
 	padding: 2vmax;
 	display: flex;
+	flex-direction: column;
 	color: #000;
+	height: 80vh;
 }
 
 .skillContainer h1 {
 	font-size: 5em;
 	margin: 0 auto;
-	height: 100vh;
 	text-decoration: underline;
+}
+
+.skillContainer ul {
+	font-size: 3em;
+	list-style: none;
+}
+
+.subContainer {
+	display: flex;
+	flex-direction: row;
+}
+
+.skillStrngth {
+	width: 50%;
+}
+
+#displayHTMLStrength {
+	height: 2vh;
+  background: #5D6D7E;
+  width: 60%;
+  margin-top: -2vh;
+}
+
+#displayCSSStrength {
+	height: 2vh;
+  background: #5D6D7E;
+  width: 40%;
+  margin-top: -2vh;
+}
+
+#displayJSStrength {
+	height: 2vh;
+  background: #5D6D7E;
+  width: 80%;
+  margin-top: -2vh;
+}
+
+#displayAStrength {
+	height: 2vh;
+  background: #5D6D7E;
+  width: 50%;
+  margin-top: -2vh;
+}
+
+.mt-4vh {
+	margin-top: 4vh;
+}
+
+.strengthIndicator {
+	height: 2vh;
+	background: #CFD4D6;
+	width: 90%;
 }
 
 .content	{
@@ -63,15 +122,30 @@ hr {
 	height: 20vh;
 }
 
+#strengthRange {
+	display: block;
+}
+
+#strengthN {
+	display: none;
+}
+
 /*media queries for responsivness*/
 
-@media screen and (max-width: 418px) {
+/* landscape media query doesn't seems to be working on chrome. Please advice*/
+@media screen and (min-width: 550px) and (orientation :landscape) {
+	.container {
+		height: 100vh;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 418px) {
 	body {
 		text-shadow: none;
 	}
 
 	.conatiner {
-		height: 70vh;
+		height: 80vh;
 	}
 
 	h1, h2 {
@@ -96,9 +170,26 @@ hr {
 		margin: 0;
 		padding: 0;
 	}
+	
+	.subContainer {
+		/*padding-left: 10vw;*/
+	}
 
 	.skillContainer h1 {
 		font-size: 3em;
+	}
+
+	#strengthRange {
+		display: none;
+	}
+
+	#strengthN {
+		display: block;
+		text-align: center;
+	}
+
+	.skillContainer ul {
+		font-size: 1.5em;
 	}
 }
 
@@ -135,4 +226,22 @@ hr {
 		padding: 0;
 	}
 
+	.skillContainer h1 {
+		font-size: 3em;
+	}
+
+	#strengthRange {
+		display: none;
+	}
+
+	#strengthN {
+		display: block;
+		text-align: center;
+	}
+
+	.skillContainer ul {
+		font-size: 1.5em;
+	}
+
 }
+
