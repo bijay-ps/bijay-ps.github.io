@@ -22,7 +22,7 @@ hr {
 
 .conatiner {
 	background: #FF5733;
-	height: 100vh;
+	height: 80vh;
 	margin-top: -2vh;
 	padding: 2vmax;
 	display: flex;
@@ -62,14 +62,14 @@ hr {
 #displayHTMLStrength {
 	height: 2vh;
   background: #5D6D7E;
-  width: 60%;
+  width: 70%;
   margin-top: -2vh;
 }
 
 #displayCSSStrength {
 	height: 2vh;
   background: #5D6D7E;
-  width: 40%;
+  width: 50%;
   margin-top: -2vh;
 }
 
@@ -83,7 +83,7 @@ hr {
 #displayAStrength {
 	height: 2vh;
   background: #5D6D7E;
-  width: 50%;
+  width: 60%;
   margin-top: -2vh;
 }
 
