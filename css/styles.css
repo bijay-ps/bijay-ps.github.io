@@ -22,7 +22,7 @@ hr {
 
 .conatiner {
 	background: #FF5733;
-	height: 80vh;
+	height: 100vh;
 	margin-top: -2vh;
 	padding: 2vmax;
 	display: flex;
@@ -243,5 +243,33 @@ hr {
 		font-size: 1.5em;
 	}
 
+}
+
+@media screen and (min-width: 419px) and (max-width: 859px) {
+	.my-image {
+		width: 90vw;
+		height: 30vh;
+		margin-left: 0;
+	}
+}
+
+@media screen and (min-width: 860px) and (max-width: 890px) {
+	.my-image {
+		width: 90vw;
+		height: 45vh;
+		margin-left: 0;
+	}
+	
+	.skillContainer ul {
+		font-size: 3em;
+	}
+
+	#strengthRange {
+		display: block;
+	}
+
+	#strengthN {
+		display: none;
+	}
 }
 
