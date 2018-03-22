@@ -6,6 +6,7 @@ body {
 	text-shadow: 1px 1px #000;
 }
 
+/* Intro container css */
 h1, h2 {
 	font-size: 2em;
 }
@@ -14,15 +15,9 @@ hr {
 	width: 50vh;
 }
 
-.smallFont {
-	font-size: 14px;
-	text-align: right;
-	margin-top: -2vh;
-}
-
 .conatiner {
 	background: #FF5733;
-	height: 80vh;
+	height: 70vh;
 	margin-top: -2vh;
 	padding: 2vmax;
 	display: flex;
@@ -30,13 +25,41 @@ hr {
 	flex-direction: column;
 }
 
+.content	{
+	margin: 0 auto;
+	text-align: center;
+	line-height: 0.7;
+}
+
+.introContent {
+	display: flex;
+	flex-direction: row;
+	padding: 2vw;
+	padding-top: 0;
+	font-size: 2em;
+}
+
+.introContent p {
+	margin-top: 2vh;
+	padding: 0 4vw 4vw 1vw;
+	font-weight: 500;
+}
+
+.my-image {
+	width: 20vw;
+	height: 20vh;
+}
+
+/* Intro container css ends*/
+
+/* CSS for skill container */
 .skillContainer {
 	background: #F0F3F4;
 	padding: 2vmax;
 	display: flex;
 	flex-direction: column;
 	color: #000;
-	height: 80vh;
+	height: 45vh;
 }
 
 .skillContainer h1 {
@@ -97,31 +120,6 @@ hr {
 	width: 90%;
 }
 
-.content	{
-	margin: 0 auto;
-	text-align: center;
-	line-height: 0.7;
-}
-
-.introContent {
-	display: flex;
-	flex-direction: row;
-	padding: 2vw;
-	padding-top: 0;
-	font-size: 2em;
-}
-
-.introContent p {
-	margin-top: 2vh;
-	padding: 0 4vw 4vw 1vw;
-	font-weight: 500;
-}
-
-.my-image {
-	width: 20vw;
-	height: 20vh;
-}
-
 #strengthRange {
 	display: block;
 }
@@ -130,6 +128,28 @@ hr {
 	display: none;
 }
 
+.smallFont {
+	font-size: 14px;
+	text-align: right;
+	margin-top: -2vh;
+}
+
+/* skill container css end */
+
+/* css for professional experience section*/
+
+.professionalExprnc {
+	display: flex;
+	height: 100vh;
+	background: #1B2631;
+	color: #fff;
+}
+
+.professionalExprnc h1 {
+	font-size: 5em;
+	margin: 0 auto;
+	text-decoration: underline;
+}
 /*media queries for responsivness*/
 
 /* landscape media query doesn't seems to be working on chrome. Please advice*/
