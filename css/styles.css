@@ -118,6 +118,13 @@ hr {
   margin-top: -2vh;
 }
 
+#displayVCSStrength {
+	height: 2vh;
+  background: #5D6D7E;
+  width: 60%;
+  margin-top: -2vh;
+}
+
 .mt-4vh {
 	margin-top: 4vh;
 }
