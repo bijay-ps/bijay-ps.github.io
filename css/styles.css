@@ -362,7 +362,7 @@ hr {
 /* landscape media query */
 @media only screen and (min-device-width: 568px) and (orientation :landscape) {
 	.conatiner {
-		background: transparent url(../images/medium.png) no-repeat center center;
+		background: transparent url(../images/image_big.png) no-repeat center center;
 		height: 100vh;
 	}
 
