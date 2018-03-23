@@ -16,7 +16,8 @@ hr {
 }
 
 .conatiner {
-	background: #FF5733;
+	background: transparent url(../images/image_big.png) no-repeat center center;
+	/*background: #FF5733;*/
 	height: 70vh;
 	margin-top: -2vh;
 	padding: 2vmax;
@@ -153,147 +154,145 @@ hr {
 /*media queries for responsivness*/
 
 /* landscape media query doesn't seems to be working on chrome. Please advice*/
-@media screen and (min-width: 550px) and (orientation :landscape) {
-	.container {
-		height: 100vh;
-	}
+@media screen and 
+		(min-width: 550px) and 
+		(max-width: 800px) and 
+		(orientation :landscape) {
+			.conatiner {
+				background: transparent url(../images/image_medium.png) no-repeat center center;
+				height: 100vh;
+			}
+			h1, h2 {
+				font-size: 1.7em;
+			}
+			.introContent {
+				font-size: 1.3em;
+			}
+		}
+
+/* 1 */
+@media screen and 
+	(min-width: 860px) and 
+	(max-width: 890px) {
+		.conatiner {
+			background: transparent url(../images/image_medium.png) no-repeat center center;
+		}
+		
+		.skillContainer ul {
+			font-size: 3em;
+		}
+
+		#strengthRange {
+			display: block;
+		}
+
+		#strengthN {
+			display: none;
+		}
 }
 
-@media screen and (min-width: 320px) and (max-width: 418px) {
-	body {
-		text-shadow: none;
-	}
+/* 2. */
+@media screen and 
+	(min-width: 418px) and 
+	(max-width: 900px ) {
+		.conatiner {
+			background: transparent url(../images/image_medium.png) no-repeat center center;
+			height: 70vh;
+		}
 
-	.conatiner {
-		height: 80vh;
-	}
+		h1, h2 {
+			font-size: 2em;
+		}
 
-	h1, h2 {
-		font-size: 1em;
-	}
+		.introContent {
+			font-size: 1.7em;
+			flex-direction: column-reverse;
+		}
+		
+		.intoContent .image{
+			order: -1;
+		}
 
-	.introContent {
-		font-size: 1em;
-		flex-direction: column-reverse;
-	}
-	
-	.intoContent .image{
-		order: -1;
-	}
+		.my-image {
+			width: 90vw;
+			height: 30vh;
+			margin-left: 0;
+		}
 
-	.my-image {
-		width: 90vw;
-		height: 30vh;
-	}
+		.introContent p {
+			margin: 0;
+			padding: 0;
+		}
 
-	.introContent p {
-		margin: 0;
-		padding: 0;
-	}
-	
-	.skillContainer h1 {
-		font-size: 3em;
-	}
+		.skillContainer h1 {
+			font-size: 3em;
+		}
 
-	#strengthRange {
-		display: none;
-	}
+		#strengthRange {
+			display: none;
+		}
 
-	#strengthN {
-		display: block;
-		text-align: center;
-	}
+		#strengthN {
+			display: block;
+			text-align: center;
+		}
 
-	.skillContainer ul {
-		font-size: 1.5em;
-	}
+		.skillContainer ul {
+			font-size: 1.5em;
+		}
 
-	.professionalExprnc h1 {
-		font-size: 2.3em;
-	}
+		.professionalExprnc h1 {
+			font-size: 2.3em;
+		}
 }
 
-@media screen and (min-width: 418px) and (max-width: 900px ) {
-	body {
-		text-shadow: none;
-	}
+@media screen and 
+	(min-width: 320px) and 
+	(max-width: 418px) {
+		.conatiner {
+			background: transparent url(../images/image_phablet.png) no-repeat center center;
+			height: 70vh;
+		}
 
-	.conatiner {
-		height: 70vh;
-	}
+		h1, h2 {
+			font-size: 1.7em;
+		}
 
-	h1, h2 {
-		font-size: 1em;
-	}
+		.introContent {
+			font-size: 1.2em;
+			flex-direction: column-reverse;
+		}
+		
+		.intoContent .image{
+			order: -1;
+		}
 
-	.introContent {
-		font-size: 1em;
-		flex-direction: column-reverse;
-	}
-	
-	.intoContent .image{
-		order: -1;
-	}
+		
+		.introContent p {
+			margin: 0;
+			padding: 0;
+		}
+		
+		.skillContainer h1 {
+			font-size: 3em;
+		}
 
-	.my-image {
-		width: 40vw;
-		height: 30vh;
-		margin-left: 28vw;
-	}
+		#strengthRange {
+			display: none;
+		}
 
-	.introContent p {
-		margin: 0;
-		padding: 0;
-	}
+		#strengthN {
+			display: block;
+			text-align: center;
+		}
 
-	.skillContainer h1 {
-		font-size: 3em;
-	}
+		.skillContainer ul {
+			font-size: 1.5em;
+		}
 
-	#strengthRange {
-		display: none;
-	}
-
-	#strengthN {
-		display: block;
-		text-align: center;
-	}
-
-	.skillContainer ul {
-		font-size: 1.5em;
-	}
-
-	.professionalExprnc h1 {
-		font-size: 2.3em;
-	}
-
+		.professionalExprnc h1 {
+			font-size: 2.3em;
+		}
 }
 
-@media screen and (min-width: 419px) and (max-width: 859px) {
-	.my-image {
-		width: 90vw;
-		height: 30vh;
-		margin-left: 0;
-	}
-}
-
-@media screen and (min-width: 860px) and (max-width: 890px) {
-	.my-image {
-		width: 90vw;
-		height: 45vh;
-		margin-left: 0;
-	}
-	
-	.skillContainer ul {
-		font-size: 3em;
-	}
-
-	#strengthRange {
-		display: block;
-	}
-
-	#strengthN {
-		display: none;
-	}
-}
 
