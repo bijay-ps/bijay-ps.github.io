@@ -208,7 +208,7 @@ hr {
 	(min-width: 860px) and 
 	(max-width: 890px) {
 		.conatiner {
-			background: transparent url(../images/image_medium.png) no-repeat center center;
+			background: transparent url(../images/medium.png) no-repeat center center;
 		}
 		
 		.skillContainer ul {
@@ -230,7 +230,7 @@ hr {
 	(min-width: 418px) and 
 	(max-width: 900px ) {
 		.conatiner {
-			background: transparent url(../images/image_medium.png) no-repeat center center;
+			background: transparent url(../images/medium.png) no-repeat center center;
 			height: 70vh;
 		}
 
@@ -362,7 +362,7 @@ hr {
 /* landscape media query */
 @media only screen and (min-device-width: 568px) and (orientation :landscape) {
 	.conatiner {
-		background: transparent url(../images/image_medium.png) no-repeat center center;
+		background: transparent url(../images/medium.png) no-repeat center center;
 		height: 100vh;
 	}
 
