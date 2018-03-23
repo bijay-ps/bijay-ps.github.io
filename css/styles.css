@@ -360,10 +360,10 @@ hr {
 }
 
 /* landscape media query */
-@media only screen and (min-device-width: 568px) and (orientation :landscape) {
+@media only screen and (max-device-width: 823px) and (orientation :landscape) {
 	.conatiner {
 		background: transparent url(../images/image_big.png) no-repeat center center;
-		height: 100vh;
+		min-height: 100vh;
 	}
 
 	h1, h2 {
