@@ -202,23 +202,6 @@ hr {
 
 /*media queries for responsivness*/
 
-/* landscape media query doesn't seems to be working on chrome. Please advice*/
-@media screen and 
-		(min-width: 550px) and 
-		(max-width: 800px) and 
-		(orientation :landscape) {
-			.conatiner {
-				background: transparent url(../images/image_medium.png) no-repeat center center;
-				height: 100vh;
-			}
-			h1, h2 {
-				font-size: 1.7em;
-			}
-			.introContent {
-				font-size: 1.3em;
-			}
-		}
-
 /* 1 (min-width: 860px) to 
 	(max-width: 890px)*/
 @media screen and 
@@ -376,4 +359,37 @@ hr {
 		}
 }
 
+/* landscape media query doesn't seems to be working on chrome. Please advice*/
+@media only screen and (min-device-width: 568px) and (orientation :landscape) {
+	.conatiner {
+		background: transparent url(../images/image_medium.png) no-repeat center center;
+		height: 100vh;
+	}
+
+	h1, h2 {
+		font-size: 1.3em;
+		margin-bottom: 1vh;
+	}
+
+	.introContent {
+		font-size: 1.2em;
+	}
+
+	.companyDetails {
+		font-size: 2em;
+	}
+
+	.duration {
+		font-size: 1.2em;
+		margin-bottom: 0;
+	}
+
+	.position {
+		font-size: 1.8em;
+	}
+
+	.role {
+		font-size: 1.5em;
+	}
+}
 
