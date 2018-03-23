@@ -18,7 +18,7 @@ hr {
 .conatiner {
 	background: transparent url(../images/image_big.png) no-repeat center center;
 	/*background: #FF5733;*/
-	height: 70vh;
+	min-height: 70vh;
 	margin-top: -2vh;
 	padding: 2vmax;
 	display: flex;
@@ -60,7 +60,7 @@ hr {
 	display: flex;
 	flex-direction: column;
 	color: #000;
-	height: 45vh;
+	min-height: 45vh;
 }
 
 .skillContainer h1 {
@@ -94,6 +94,13 @@ hr {
 	height: 2vh;
   background: #5D6D7E;
   width: 50%;
+  margin-top: -2vh;
+}
+
+#displayBootstrapStrength {
+	height: 2vh;
+  background: #5D6D7E;
+  width: 70%;
   margin-top: -2vh;
 }
 
@@ -132,7 +139,7 @@ hr {
 .smallFont {
 	font-size: 14px;
 	text-align: right;
-	margin-top: -2vh;
+	margin-top: -1vh;
 }
 
 /* skill container css end */
@@ -141,9 +148,11 @@ hr {
 
 .professionalExprnc {
 	display: flex;
-	height: 100vh;
+	flex-direction: column;
+	min-height: 100vh;
 	background: #1B2631;
 	color: #fff;
+	padding: 3em;
 }
 
 .professionalExprnc h1 {
@@ -151,6 +160,46 @@ hr {
 	margin: 0 auto;
 	text-decoration: underline;
 }
+
+.professionalExprnc h3 {
+	font-size: 2.5em;
+	margin-bottom: 0;
+}
+
+.companyDetails {
+	font-size: 2.3em;
+	margin-bottom: 0;
+	display: inline-block;
+	margin-top: 1vh;
+	text-decoration: underline;
+}
+
+.position {
+	font-size: 2.1em;
+	margin-top: 0;
+	margin-bottom: 1vh;
+	text-decoration: underline;
+}
+
+.role {
+	font-size: 1.8em;
+	margin-top: 0;
+}
+
+.duration {
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+.cmpny {
+	display: flex;
+	flex-direction: row;
+}
+
+.cd {
+	width: 50%;
+}
+
 /*media queries for responsivness*/
 
 /* landscape media query doesn't seems to be working on chrome. Please advice*/
@@ -170,7 +219,8 @@ hr {
 			}
 		}
 
-/* 1 */
+/* 1 (min-width: 860px) to 
+	(max-width: 890px)*/
 @media screen and 
 	(min-width: 860px) and 
 	(max-width: 890px) {
@@ -191,7 +241,8 @@ hr {
 		}
 }
 
-/* 2. */
+/* 2. (min-width: 418px) to 
+	(max-width: 900px )*/
 @media screen and 
 	(min-width: 418px) and 
 	(max-width: 900px ) {
@@ -201,11 +252,11 @@ hr {
 		}
 
 		h1, h2 {
-			font-size: 2em;
+			font-size: 1.8em;
 		}
 
 		.introContent {
-			font-size: 1.7em;
+			font-size: 1.3em;
 			flex-direction: column-reverse;
 		}
 		
@@ -236,6 +287,10 @@ hr {
 			display: block;
 			text-align: center;
 		}
+		
+		.skillStrngth ul li {
+			padding-bottom: 1vh;
+		}
 
 		.skillContainer ul {
 			font-size: 1.5em;
@@ -246,6 +301,8 @@ hr {
 		}
 }
 
+/* 3. (min-width: 320px) to 
+	(max-width: 418px)*/
 @media screen and 
 	(min-width: 320px) and 
 	(max-width: 418px) {
@@ -259,7 +316,7 @@ hr {
 		}
 
 		.introContent {
-			font-size: 1.2em;
+			font-size: 1.1em;
 			flex-direction: column-reverse;
 		}
 		
@@ -289,9 +346,33 @@ hr {
 		.skillContainer ul {
 			font-size: 1.5em;
 		}
+		
+		.professionalExprnc {
+			padding: 2.5em;
+		}
 
 		.professionalExprnc h1 {
-			font-size: 2.3em;
+			font-size: 2em;
+		}
+
+		.professionalExprnc h3 {
+			font-size: 1.8em;
+		}
+
+		.companyDetails {
+			font-size: 1.7em;
+		}
+		
+		.position {
+			font-size: 1.6em;
+		}
+
+		.role {
+			font-size: 1.4em;
+		}
+
+		.duration {
+			font-size: 1.1em;
 		}
 }
 
