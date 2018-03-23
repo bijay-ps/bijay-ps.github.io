@@ -359,7 +359,7 @@ hr {
 		}
 }
 
-/* landscape media query doesn't seems to be working on chrome. Please advice*/
+/* landscape media query */
 @media only screen and (min-device-width: 568px) and (orientation :landscape) {
 	.conatiner {
 		background: transparent url(../images/image_medium.png) no-repeat center center;
