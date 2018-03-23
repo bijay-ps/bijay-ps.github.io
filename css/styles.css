@@ -307,7 +307,7 @@ hr {
 	(min-width: 320px) and 
 	(max-width: 418px) {
 		.conatiner {
-			background: transparent url(../images/image_phablet.png) no-repeat center center;
+			background: transparent url(../images/image_small.png) no-repeat center center;
 			height: 70vh;
 		}
 
