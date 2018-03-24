@@ -80,6 +80,11 @@ hr {
 	flex-direction: row;
 }
 
+.toLearn {
+	padding-left: 3vw;
+	font-size: 2em
+}
+
 .skillStrngth {
 	width: 50%;
 }
@@ -104,6 +109,23 @@ hr {
 
 #displayJSStrength {
   width: 80%;
+}
+
+#displayNodeJSStrength {
+	width: 50%;
+}
+
+#separator {
+	width: 70vw;
+}
+
+.toLnM {
+	margin-bottom: 0;
+}
+
+.wishList {
+	margin-top: 0;
+	font-size: 0.8em;
 }
 
 #displayAStrength {
@@ -312,6 +334,10 @@ a:link, a:visited, a:hover, a:active {
 		.skillContainer ul {
 			font-size: 1.5em;
 		}
+		
+		.toLnM {
+			font-size: 0.9em;
+		}
 
 		.professionalExprnc h1 {
 			font-size: 2.3em;
@@ -373,6 +399,14 @@ a:link, a:visited, a:hover, a:active {
 		.skillContainer ul {
 			font-size: 1.5em;
 		}
+		
+		.wishList {
+			font-size: 0.6em;
+		}
+
+		.toLnM {
+			font-size: 0.8em;
+		};
 		
 		.professionalExprnc {
 			padding: 2.5em;
@@ -436,6 +470,10 @@ a:link, a:visited, a:hover, a:active {
 	.companyDetails {
 		font-size: 2em;
 	}
+	
+	.toLnM {
+		font-size: 0.9em;
+	};
 
 	.duration {
 		font-size: 1.2em;
