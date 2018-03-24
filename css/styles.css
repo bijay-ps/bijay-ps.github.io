@@ -342,7 +342,11 @@ a:link, a:visited, a:hover, a:active {
 		.professionalExprnc h1 {
 			font-size: 2.3em;
 		}
-
+		
+		.portfolio {
+			padding-top: 1em;
+		}
+		
 		.portfolio h1 {
 			font-size: 2.3em;
 		}
@@ -435,9 +439,13 @@ a:link, a:visited, a:hover, a:active {
 		.duration {
 			font-size: 1.1em;
 		}
+		
+		.portfolio {
+			padding-top: 1em;
+		}
 
 		.portfolio h1 {
-			font-size: 1.8em;
+			font-size: 1.5em;
 		}
 
 		.portfolio ul {
