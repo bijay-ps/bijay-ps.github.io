@@ -84,32 +84,26 @@ hr {
 	width: 50%;
 }
 
-#displayHTMLStrength {
+.commonCosmetic {
 	height: 2vh;
   background: #5D6D7E;
-  width: 70%;
   margin-top: -2vh;
+}
+
+#displayHTMLStrength {
+  width: 70%;
 }
 
 #displayCSSStrength {
-	height: 2vh;
-  background: #5D6D7E;
   width: 50%;
-  margin-top: -2vh;
 }
 
 #displayBootstrapStrength {
-	height: 2vh;
-  background: #5D6D7E;
   width: 70%;
-  margin-top: -2vh;
 }
 
 #displayJSStrength {
-	height: 2vh;
-  background: #5D6D7E;
   width: 80%;
-  margin-top: -2vh;
 }
 
 #displayAStrength {
