@@ -156,7 +156,7 @@ hr {
 .professionalExprnc {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+	min-height: 90vh;
 	background: #1B2631;
 	color: #fff;
 	padding: 3em;
@@ -207,6 +207,32 @@ hr {
 .cd {
 	width: 50%;
 }
+
+/* CSS for porfolio */
+.portfolio {
+	display: flex;
+	flex-direction: column;
+	min-height: 50vh;
+	color: #fff;
+	padding: 3em;
+	background: #FF5733;
+}
+
+.portfolio h1 {
+	font-size: 3em;
+	text-decoration: underline;
+	margin-bottom: 0;
+}
+
+.portfolio ul {
+	font-size: 2em;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
 
 /*media queries for responsivness*/
 
@@ -290,6 +316,14 @@ hr {
 		.professionalExprnc h1 {
 			font-size: 2.3em;
 		}
+
+		.portfolio h1 {
+			font-size: 2.3em;
+		}
+
+		.portfolio ul {
+			margin-left: -0.5em;
+		}
 }
 
 /* 3. (min-width: 320px) to 
@@ -364,6 +398,15 @@ hr {
 
 		.duration {
 			font-size: 1.1em;
+		}
+
+		.portfolio h1 {
+			font-size: 1.8em;
+		}
+
+		.portfolio ul {
+			font-size: 1.7em;
+			margin-left: -0.8em;
 		}
 }
 
