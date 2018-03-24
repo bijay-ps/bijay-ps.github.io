@@ -346,7 +346,7 @@ a:link, a:visited, a:hover, a:active {
 		.portfolio {
 			padding-top: 1em;
 		}
-		
+
 		.portfolio h1 {
 			font-size: 2.3em;
 		}
@@ -368,6 +368,10 @@ a:link, a:visited, a:hover, a:active {
 
 		h1, h2 {
 			font-size: 1.7em;
+		}
+		
+		hr {
+			width: 90vw;
 		}
 
 		.introContent {
@@ -465,6 +469,10 @@ a:link, a:visited, a:hover, a:active {
 		font-size: 1.3em;
 		margin-bottom: 1vh;
 	}
+	
+	hr {
+		width: 70vw;
+	}
 
 	.introContent {
 		font-size: 1.2em;
@@ -497,3 +505,10 @@ a:link, a:visited, a:hover, a:active {
 	}
 }
 
+@media screen and 
+	(min-width: 320px) and 
+	(max-width: 320px) {
+		.introContent {
+			font-size: 0.9em;
+		}
+	}
