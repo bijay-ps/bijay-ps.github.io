@@ -89,6 +89,10 @@ hr {
 	width: 50%;
 }
 
+.skills-list li {
+	margin-bottom: 18px;
+}
+
 .commonCosmetic {
 	height: 2vh;
   background: #5D6D7E;
