@@ -293,7 +293,8 @@ header {
 /*----------------------------------------*/
 /* FEATURES */
 /*----------------------------------------*/
-.section-skills {
+.section-skills,
+.section-form {
     background-color: #f4f4f4;
 }
 
