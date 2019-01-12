@@ -329,6 +329,9 @@ a:visited {
     margin-bottom: 15px;
 }
 
+.prjct-feature {
+    max-width: 275px;
+}
 /*----------------------------------------*/
 /* TESTIMONIALS */
 /*----------------------------------------*/
