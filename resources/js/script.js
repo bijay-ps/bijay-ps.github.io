@@ -55,6 +55,11 @@ $(document).ready(function () {
     }, {
         offset: '60%'
     });
+    $('.js--wp-5').waypoint(function(direction) {
+        $('.js--wp-5').addClass('animated fadeInUp');
+    }, {
+        offset: '40%'
+    });
 
     /* Mobile nav */
     $('.mobile-nav').click(function () {

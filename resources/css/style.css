@@ -32,6 +32,11 @@ section {
 
 }
 
+.center-col {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
 .box {
     padding: 1%;
 
@@ -408,13 +413,15 @@ footer span {
 .js--wp-1,
 .js--wp-2,
 .js--wp-3,
-.js--wp-4 {
+.js--wp-4,
+.js--wp-5 {
     opacity: 0;
 }
 
 .js--wp-1.animated,
 .js--wp-2.animated,
 .js--wp-3.animated,
-.js--wp-4.animated {
+.js--wp-4.animated,
+.js--wp-5.animated {
     opacity: 1;
 }
